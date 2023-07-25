@@ -11,9 +11,9 @@ print 'taking off'
 drone.take_off(10.0)
 
 print ' going along the setpoints'
-drone.position_set(6.5, 5, 10, relative=True)
-drone.position_set(-6.5, 5, 10, relative=True)
-drone.position_set(0, -10, 10, relative=True)
+drone.position_set(6.5, 5, 0, relative=True)
+drone.position_set(-6.5, 5, 0, relative=True)
+drone.position_set(0, -10, 0, relative=True)
 
 
 print 'Landing'
